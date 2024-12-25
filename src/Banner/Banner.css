@@ -1,0 +1,106 @@
+
+
+/* .container{
+    width: 1320px;
+    margin: 0 auto;
+    background: red;
+} */
+
+:root{
+    --black:#292929;
+    --normal_black:#6A6A6A;
+    --blue:#425CEC;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.left_hero{
+    width: 419px;
+}
+.left_hero h1{
+    font-size: 56px;
+    line-height: 68px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: var(--black);
+}
+.left_hero p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: var(--normal_black);
+    width: 485px;
+    padding-top:30px ;
+    padding-bottom: 86px;
+}
+.btn_3{
+    display: inline-block;
+    background: rgba(66, 92, 236, 0.1);
+    border-radius: 10px;
+}
+.btn_3 ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 46px; */
+    
+}
+.btn_3 ul li{
+    list-style: none;
+    padding: 24px 32px;
+    transition: all linear .6s;
+    color: var(--blue);
+    
+}
+.btn_3 ul li:hover{
+    background: var(--blue);
+    border-radius: 10px;
+    color: white;
+}
+.btn_3 ul li a{
+    color:inherit;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    transition: all linear .6s;
+    
+}
+.btn_3 ul li a:hover{
+    color: #fff;  
+}
+
+.btn_3 ul li a i{
+    padding-right: 10px;
+}
+
+.right_side{
+    position: relative;
+}
+.right_side img{
+    padding: 5px;
+}
+.right_side .ThirdImage{
+    position: absolute;
+    right: 10%;
+}
+
+.Add_hero{
+    padding-top: 131px;
+}
+.Add_hero h2{
+    text-align: center;
+    font-size: 26px;
+    font-weight: 800;
+    line-height: 32px;
+    letter-spacing: 2px;
+    color: var(--black);
+}
+.add_image{
+    padding-top: 50px;
+    cursor: pointer;
+    padding-bottom: 130px;
+}
